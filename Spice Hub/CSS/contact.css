@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-image: url("../Images/food4.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 90%; /* Adjust the width to your preference */
+    max-width: 700px; /* Adjust the maximum width to your preference */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7); /* Adjust the last value (alpha) for transparency */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Center the content within the container */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    margin: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#container-main {
+    width: 100%;
+    height: 100vh;
+   
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    display: block;
+
+}
+
+/* Header File Starts Here */
+
+#header {
+
+    width: flex;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+
+}
+
+/* Logo */
+
+#h1text {
+    text-shadow: 5px 5px 4px rgba(255, 6, 193, 0.5);
+    color: transparent;
+    background-color: rgba(234, 229, 230, 0.546);
+    height: 15vh;
+    width: 20vw;
+    border-radius: 20px;
+}
+
+
+#logo {
+    font-size: 72px;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+    color: var(--background-color);
+    margin: 0;
+    padding: 0;
+
+}
+
+#menu-list {
+    background-color: rgba(39, 21, 24, 0.546);
+    height: 30px;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 15px;
+
+
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: relative;
+
+}
+
+ul li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 5px 5px 4px rgba(5, 9, 242, 0.621);
+    transition: opacity 0.3s;
+}
+
+ul li a:hover{
+    color:#000000;
+    /* text-decoration: underline; */
+    transform: scale(1.1);
+    border-bottom: 4px solid #fffefe;
+    
+}
